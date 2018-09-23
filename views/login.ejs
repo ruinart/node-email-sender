@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+</head>
+
+<body>
+
+<h2>Login Form</h2>
+
+<form action="/login" method="post">
+  User Name:<br>
+  <input type="text" name="username">
+  <br>
+  Password:<br>
+  <input type="password" data-type="password" name="password">
+  <br>
+  <input type="submit" value="Sign In">
+</form> 
+
+<p><%= message %></p>
+
+</body>
+</html>

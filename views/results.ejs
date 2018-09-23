@@ -13,5 +13,9 @@
 <h3>Favorite Studio:</h3>
 <p><%=msg.content%></p>
 
+<% if (user) { %>
+  <h4>Number of Submissions: <%= user.count %></h4>
+<% } %>
+
 </body>
 </html>
